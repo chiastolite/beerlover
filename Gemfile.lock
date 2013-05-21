@@ -51,6 +51,7 @@ GEM
     activerecord-deprecated_finders (1.0.2)
     atomic (1.1.9)
     builder (3.1.4)
+    coderay (1.0.9)
     diff-lcs (1.2.4)
     erubis (2.7.0)
     hike (1.2.2)
@@ -59,10 +60,17 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    method_source (0.8.1)
     mime-types (1.23)
     minitest (5.0.2)
     multi_json (1.7.3)
     polyglot (0.3.3)
+    pry (0.9.12.2)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    pry-rails (0.3.0)
+      pry (>= 0.9.10)
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -82,6 +90,7 @@ GEM
       rspec-core (~> 2.13.0)
       rspec-expectations (~> 2.13.0)
       rspec-mocks (~> 2.13.0)
+    slop (3.4.5)
     sprockets (2.9.3)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -106,6 +115,7 @@ PLATFORMS
 
 DEPENDENCIES
   arel!
+  pry-rails
   rails!
   rails-api
   rspec-rails (~> 2.0)
